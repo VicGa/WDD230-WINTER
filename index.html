@@ -23,12 +23,10 @@
         &copy; 2022| First homework on winter | All right reserved | Today's Date: <span id="currentDate"></span>
     </footer>
     <script>
-
         //toLocalDateString
-
         const options = {weekday: "long", day:"numeric", month: "long", year: "numeric"};
-        document.getElementById('currentDate').textContent = new Date().toLocalDateString('en-US', options);
-
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', options);
+        console.log(options);
     </script>
   </body>
 </html>
