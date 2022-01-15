@@ -3,7 +3,7 @@
 body {
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
-    background-image: url("/wdd230/lesson2/images/mountains.jpg");
+    background-image: url("/WDD230-WINTER/lesson2/images/mountains.jpg");
     background-size: 100rem;
 }
 
@@ -68,6 +68,7 @@ a{
 }
 
 main section {
+    max-width: 250px;
 	margin: 0.5rem;
 	border: 1px solid #bbb;
 	padding: 0 1rem 1rem;
@@ -81,11 +82,12 @@ main section {
 main section:nth-child(2) {
 	display: block;
 	margin: 0.5rem;
+    align-items:center;
 
 }
 
 .colimage {
-    max-width: 20rem;
+    max-width: 15rem;
 	box-shadow: 0 0 30px #333;
     border-radius: 1rem;
 }
