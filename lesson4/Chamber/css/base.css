@@ -1,0 +1,114 @@
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+
+header,
+footer {
+  display: flex;
+  flex-flow: column;
+  background-color: rgba(59, 170, 235, 0.829);
+  max-width:100%;
+
+
+}
+/*----------------START HEADER-------------*/
+
+
+.logo {
+	display: flex;
+	align-items: center;
+	margin-left: 4em;
+}
+
+.logo img {
+	width: 80px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+	margin: auto  ;
+}
+
+.headings h1 {
+	font-size: 1.5em;
+}
+
+.m {
+	letter-spacing: 1pt;
+	color: rgba( 16, 16, 0.877);
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+.social {
+	margin-right: 4.5rem;
+}
+
+.social svg {
+	width: 45px;
+	height: auto;
+}
+nav {
+  margin-top: -4rem;
+  margin-right:0;
+  max-width: 1000px;
+  background-color: #36454f;
+  text-align: center;
+  box-shadow: 0 2px 15px gray;
+  border-radius: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:visible;
+}
+nav ul li a, #fas {
+  float: right;
+  color: rgb(12, 12, 12);
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, transparent, rgb(235, 84, 159), transparent) top / var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+}
+nav a:hover {
+background-color: #bbb;
+  color: #021a08; 
+  --d: 75%;
+}
+
+#active {
+  color: rgb(226, 71, 92);
+}
+/*--------------END HEADER-------------------*/
+
+/* --------------------MAIN---------------------------- */
+
+main{
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+}
+.hero1, .hero2, .hero3, .hero4{
+  margin: 1em;
+  border-style: solid;
+  width: 15em;
+  height: auto;
+}
+/*---------------END MAIN------------------------------*/
+
+
+/*---------------START FOOTER------------------------------*/
+
+
+
+
+/*---------------END FOOTER------------------------------*/
+
